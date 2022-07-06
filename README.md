@@ -13,3 +13,10 @@
 На основе строки `https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Be%20Obsessed%20or%20Be%20Average/01.mp3?_=1` с помощью макроса Vim (`yyp$F/lvef=lveF=lvw`) сгенерировал [набор](urls.json) нужных адресов.
 
 После этого приступил к созданию [скрипта](download_audio_using_url.py).
+
+### UPD
+
+Нужно парсить URL со страницы из тегов:
+```html
+<audio class="wp-audio-shortcode" id="audio-1939-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3?_=1" /><a href="https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3">https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3</a></audio>
+```
