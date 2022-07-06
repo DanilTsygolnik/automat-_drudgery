@@ -20,3 +20,7 @@
 ```html
 <audio class="wp-audio-shortcode" id="audio-1939-1" preload="none" style="width: 100%;" controls="controls"><source type="audio/mpeg" src="https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3?_=1" /><a href="https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3">https://ipaudio6.com/wp-content/uploads/BOOKAUDIO/Habits%20of%20Highly%20Effective%20Peop/01.mp3</a></audio>
 ```
+
+### Resources
+
+- [Stackoverflow про загрузку mp3](https://stackoverflow.com/questions/59539194/how-to-download-all-mp3-url-as-mp3-from-a-webpage-using-python3);
