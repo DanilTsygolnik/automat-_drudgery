@@ -9,3 +9,5 @@ NOTE_TEMPLATE_PATH=${3:-""}
 if ! [[ -e $DAY_NOTE_FULL_PATH ]]; then
     touch $DAY_NOTE_FULL_PATH
 fi
+
+$EDITOR $DAY_NOTE_FULL_PATH
