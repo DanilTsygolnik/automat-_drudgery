@@ -2,7 +2,12 @@
 
 DEFAULT_NOTE_NAME=$(date +"%d-%b-%Y-w%W.md")
 FILENAME=${3:-$DEFAULT_NOTE_NAME}
+
 NOTE_DIRECTORY=${2:-$PWD}
+if ! [[ -d $NOTE_DIRECTORY ]]; then
+    mkdir -p $NOTE_DIRECTORY
+fi
+
 DAY_NOTE_FULL_PATH="${NOTE_DIRECTORY}/${FILENAME}"
 
 if ! [[ -e $DAY_NOTE_FULL_PATH ]]; then
