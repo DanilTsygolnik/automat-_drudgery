@@ -44,3 +44,26 @@
     + `bash make_day_note.sh "" ./test` (создаётся пустая заметка с названием по дате в существующей директории; при повторном вызове открывается соотв. заметка)
     - `bash make_day_note.sh "" ./test` (создаётся пустая заметка с названием по дате в существующей директории; при повторном вызове открывается соотв. заметка) -- нужно создавать директории (решено ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/8b74e0e8ffc5ae59599d389b8167086ace321e1c))) 
 `make_day_note $note_template $note_directory $filename` -- заметка с содержимым шаблона в заданной директорией с заданным названием ++
+
+## tbs
+
+### Тайминги
+
+Прикидка на бумаге - 00:12
+Черновик README ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/aa04317095e76ee5db452bf6137ff77a712aa61d)) - 00:20
+
+Кодирование: ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/937c40cb53ea73a63e02748ce7dd111c6fea33f5)) - 00:20
+
+Уточнения на бумаге: template и валидация - 00:11
+
+Кодирование ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/b45ebbfd73821ad4751f09c4288546415fa84bc2)), ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/6794d8664674b4627e99bb0ebb91a27263201508)), ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/c9aef59d625b686803732cddb34bf42da8923048)) - 00:20
+
+Тестирование - 00:05
+
+Изменение кода ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/a616f5c1660d21a31b90eb05f0d3d7a053b28dac)) и тестирование, правки ([commit](https://github.com/DanilTsygolnik/automate_drudgery/commit/8b74e0e8ffc5ae59599d389b8167086ace321e1c)) и окончание тестов - 00:28
+
+Заметки - 00:30
+
+### Использованные материалы
+
+- [Bash cheatsheet](https://devhints.io/bash)
