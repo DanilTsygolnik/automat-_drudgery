@@ -8,6 +8,9 @@ NOTE_TEMPLATE_PATH=${3:-""}
 
 if ! [[ -e $DAY_NOTE_FULL_PATH ]]; then
     touch $DAY_NOTE_FULL_PATH
+    if [[ -n $NOTE_TEMPLATE_PATH && -e $NOTE_TEMPLATE_PATH ]]; then
+        cat $NOTE_TEMPLATE_PATH > $DAY_NOTE_FULL_PATH
+    fi
 fi
 
 $EDITOR $DAY_NOTE_FULL_PATH
